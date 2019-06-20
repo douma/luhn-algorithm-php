@@ -1,5 +1,13 @@
 # Luhn Algorithm
 
+## Usage
+
+`php src/examples/luhn.php 4539148803436467`
+
+Output:
+
+`Valid`
+
 ## Introduction
 Given a number determine whether or not it is valid per the Luhn formula.
 
