@@ -1,0 +1,10 @@
+{
+    "name": "douma/luhn-algorithm",
+    "authors": [
+        {
+            "name": "Stefan Douma",
+            "email": "douma@live.nl"
+        }
+    ],
+    "require": {}
+}
