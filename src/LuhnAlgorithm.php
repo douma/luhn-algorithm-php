@@ -7,6 +7,9 @@ class LuhnAlgorithm
     public function isValid(string $number) : bool
     {
         $stripped = str_replace(" ", "", $number);
+        if(!is_numeric($stripped)) {
+            throw InvalidNumberException::forNumber($stripped);
+        }
         $chars = str_split($stripped,1);
         $totalChars = count($chars);
         $countIndex = $totalChars -1;
